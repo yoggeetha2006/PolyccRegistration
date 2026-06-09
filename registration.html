@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>POLYCC Mega 2026 Registration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<div data-role="page" id="registerPage">
+  <div data-role="header">
+    <h1>Karnival POLYCC Mega 2026</h1>
+  </div>
+  <div role="main" class="ui-content">
+    <form id="regForm">
+      <label>Name:</label>
+      <input type="text" id="name" required>
+      <label>Age:</label>
+      <input type="number" id="age" required>
+      <label>Email:</label>
+      <input type="email" id="email" required>
+      <label>Gender:</label>
+      <select id="gender">
+        <option value="">Select</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      <label>Competition:</label>
+      <select id="competition">
+        <option>Drone</option>
+        <option>AI Robotics</option>
+        <option>Code Design</option>
+        <option>Cooking</option>
+        <option>3D Sketch / Art</option>
+      </select>
+      <button type="button" id="submitBtn">Submit</button>
+    </form>
+  </div>
+  <div data-role="footer">
+    <h4>© 2026 POLYCC Mega Carnival</h4>
+  </div>
+</div>
+</body>
+</html>
